@@ -29,7 +29,7 @@ function Register() {
         }
 
         if(isSuccess|| user){
-            navigate('/')
+            navigate('/Dashboard')
         }
 
         dispatch(reset())
